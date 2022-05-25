@@ -1,0 +1,97 @@
+*{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7E4D4;
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h1{
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 48px;
+    align-self: center;
+    color: #467745;
+    margin: 20px;
+    margin-top: 20%;
+        
+}
+
+.input-field{
+    width: 100%;
+    max-width: 480px;
+    height: 64px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    margin-bottom: 20px;
+    text-indent: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #467745;
+    border: none;
+    background-color: #ffff;
+
+}
+
+.textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 120px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-indent: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #467745;
+    background-color: #ffff;
+    border: none;
+    font-weight: 500;
+}
+
+#form{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #467745;
+    border: none;
+    margin-bottom: 30px;
+}
+
+
+
+.button{
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    align-self: center;
+    font-family: 'EB Garamond', serif;
+    height: 80px;
+    background-color: #467745;
+    color: #F7E4D4;
+    letter-spacing: 0.2em;
+    border-radius: 40px;
+    border: none;
+    font-weight: normal;
+    font-size: 21px;
+    text-transform: uppercase;
+    }
+
+.adatvedelmi{
+    color: #467745 ;
+}
